@@ -1,0 +1,16 @@
+{
+  "name": "escuela-virtual-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:escuelavirtual/docs.git",
+  "author": "Escuela Virtual",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "sass-w": "nodemon -e scss --watch public/sass -x \"npm run build-sass\""
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sass": "^1.26.10"
+  }
+}
