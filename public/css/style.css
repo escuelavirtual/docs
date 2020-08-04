@@ -1,0 +1,20 @@
+/* Variables */
+/* Importando fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap");
+/* estilos por defecto de la etiqueta root */
+#root {
+  color: #000000;
+  font-family: "Lato", "Roboto", "segoe UI", arial, helvetica, sans-serif;
+  background-color: #ffffff;
+  font-style: normal;
+  font-size: 100%; }
+
+#nav-lateral {
+  /* aqu van todos los estilos del menu lateral predeterminado */
+  display: block; }
+  #nav-lateral li {
+    list-style: none; }
+  #nav-lateral a {
+    text-decoration: none;
+    color: #000000; }

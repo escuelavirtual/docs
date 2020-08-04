@@ -7,10 +7,10 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "sass-w": "nodemon -e scss --watch public/sass -x \"npm run build-sass\""
+    "sass": "node-sass --watch public/sass/ -o public/css/"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4",
+    "node-sass": "^4.14.1",
     "sass": "^1.26.10"
   }
 }

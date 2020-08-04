@@ -1,3 +1,29 @@
-body {
-  color: #000;
+/* Variables */
+$font-color-default: #000000;
+$font-family-default: "Lato", "Roboto", "segoe UI", arial, helvetica, sans-serif;
+$background-color-default-light: #ffffff;
+
+/* Importando fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"); // Lato
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap"); // Roboto
+
+/* estilos por defecto de la etiqueta root */
+#root {
+  color: $font-color-default;
+  font-family: $font-family-default;
+  background-color: $background-color-default-light;
+  font-style: normal;
+  font-size: 100%;
+}
+
+#nav-lateral {
+  /* aqu van todos los estilos del menu lateral predeterminado */
+  display: block;
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: $font-color-default;
+  }
 }
