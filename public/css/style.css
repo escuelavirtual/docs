@@ -7,9 +7,24 @@
 #root {
   color: #111111;
   font-family: "Lato", "Roboto", "segoe UI", arial, helvetica, sans-serif;
-  background-color: #ffffff;
-  font-style: normal;
-  font-size: 100%; }
+  background-color: #ffffff; }
+  #root #content {
+    display: flex; }
+    #root #content #indice {
+      margin: 0 20px 0 0;
+      padding: 0;
+      background-color: #6705c6;
+      width: 20%;
+      height: 100%; }
+      #root #content #indice ul {
+        padding: 20px; }
+      #root #content #indice li {
+        list-style: none; }
+      #root #content #indice a {
+        color: #d4fcf4;
+        font-size: 17px; }
+    #root #content #article {
+      width: 90%; }
 
 a {
   text-decoration: none;

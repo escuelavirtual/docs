@@ -2,6 +2,7 @@
 $font-color-default: #111111;
 $font-family-default: "Lato", "Roboto", "segoe UI", arial, helvetica, sans-serif;
 $background-color-default-light: #ffffff;
+$font-size-default: 15px;
 
 /* Colores Primarios */
 $color-primary-one: #6705c6;
@@ -22,8 +23,29 @@ $color-primary-eight: #015759;
   color: $font-color-default;
   font-family: $font-family-default;
   background-color: $background-color-default-light;
-  font-style: normal;
-  font-size: 100%;
+  #content {
+    display: flex;
+    #indice {
+      margin: 0 20px 0 0;
+      padding: 0;
+      background-color: $color-primary-one;
+      width: 20%;
+      height: 100%;
+      ul {
+        padding: 20px;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        color: $color-primary-six;
+        font-size: 17px;
+      }
+    }
+    #article {
+      width: 90%;
+    }
+  }
 }
 
 a {
