@@ -1,22 +1,4 @@
-/* Variables */
-$font-color-default: #111111;
-$font-family-default: "Lato", "Roboto", "segoe UI", arial, helvetica, sans-serif;
-$background-color-default-light: #ffffff;
-$font-size-default: 15px;
-
-/* Colores Primarios */
-$color-primary-one: #6705c6;
-$color-primary-two: #2936c3;
-$color-primary-three: #1cdccd;
-$color-primary-four: #13f3f0;
-$color-primary-five: #02b6ff;
-$color-primary-six: #d4fcf4;
-$color-primary-seven: #3ba1ad;
-$color-primary-eight: #015759;
-
-/* Importando fonts */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"); // Lato
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap"); // Roboto
+@import "./variables";
 
 /* estilos por defecto de la etiqueta root */
 #root {
@@ -27,7 +9,7 @@ $color-primary-eight: #015759;
     display: flex;
     #indice {
       margin: 0 20px 0 0;
-      padding: 0;
+      padding: 0 0 0 50px;
       background-color: $color-primary-one;
       width: 20%;
       height: 100%;
