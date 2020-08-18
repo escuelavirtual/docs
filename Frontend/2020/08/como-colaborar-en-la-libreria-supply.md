@@ -32,6 +32,54 @@ todas las clases deben tener un nombre descriptivo pero no muy largo para su fac
 - `_fonts.scss`: en este archivo de sass se establecen todas las fuentes posibles para usar pueden ser tanto fuentes web como fuentes no webs es decir que no vengan de google fonts.
   En el caso de que se quiera agregar fuentes que no provengan de google fonts deben colocarse en el directorio `src/assets/fonts/`
 
+### Como usar [Supply][supply-github] en mi proyecto
+
+A continuacion te mostrare unos paso para poder usar esta libreria en tu proyecto
+
+Paso 1: Primero debes instalar [supply][supply-npm] en tu proyecto con `npm install supply-tools` o `yarn add supply-tools` no debes agregarla como dependencia de desarrollo ya que tu applicacion depede de supply
+
+paso 2: si estas trabajando con react, angular o vue debes importarla asi
+
+```jsx
+import supply-tools  from "supply-tools";
+```
+
+o si estas trabajando en javascript o typescript es asi
+
+> javascript
+
+```js
+const supplyTools = require("supply-tools");
+```
+
+> typescript
+
+```ts
+import supply from "supply-tools";
+```
+
+paso 3: Ahora si que empiece la magia, en react, angular y vue debes usar asi
+
+```jsx
+import supply from "supply-tools";
+
+const MiComponentReact = () => {
+  <>
+    <a href="/" className="font-roboto color-text-red">
+      Este text va a hacer de color rojo y de fuente roboto
+    </a>
+  </>;
+};
+```
+
+o en html simple
+
+```html
+<a href="about.html" class="font-roboto color-text-red"
+  >Este text va a ser de color rojo y de fuente roboto</a
+>
+```
+
 Contribuidores al articulo:
 
 <!-- el formto debe ser el siguiente
